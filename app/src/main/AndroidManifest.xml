@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edunachal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".edu_classes"></activity>
+        <activity android:name=".appsc_writing" />
+        <activity android:name=".writing_upsc" />
+        <activity android:name=".appsc_quiz" />
+        <activity android:name=".upsc_quiz" />
+        <activity android:name=".st_note_upsc" />
+        <activity android:name=".apsc_study" />
+        <activity android:name=".upscstudy_01" />
+        <activity android:name=".current_appsc01" />
+        <activity android:name=".current_upsc01" />
+        <activity android:name=".appsc_mains" />
+        <activity android:name=".mains_01" />
+        <activity android:name=".prelims_01" />
+        <activity android:name=".APPSC01" />
+        <activity android:name=".ssc_01" />
+        <activity android:name=".APPSC_01" />
+        <activity android:name=".UPSC_01" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Register" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

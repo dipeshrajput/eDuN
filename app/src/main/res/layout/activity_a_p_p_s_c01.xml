@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lg8"
+    tools:context=".APPSC01">
+
+
+    <Button
+        android:id="@+id/button001"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:background="@drawable/ml"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="REASONING"
+
+        android:textSize="30dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <Button
+        android:id="@+id/button00001"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:background="@drawable/ml"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="MATHS"
+
+        android:textSize="37dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <Button
+        android:id="@+id/button007"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:background="@drawable/ml"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="G.K"
+        android:textSize="45dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <Button
+        android:id="@+id/button008"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:background="@drawable/ml"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="ENGLISH"
+        android:textSize="35dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+</androidx.constraintlayout.widget.ConstraintLayout>
